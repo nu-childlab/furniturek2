@@ -1,6 +1,6 @@
 //
 //  Trial.swift
-//  furniturek
+//  furniturek2
 //
 //  Created by Casey Colby on 11/10/16.
 //  Copyright © 2016 ccolby. All rights reserved.

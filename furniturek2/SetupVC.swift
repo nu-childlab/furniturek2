@@ -1,6 +1,6 @@
 //
 //  SetupViewController.swift
-//  furniturek
+//  furniturek2
 //
 //  Created by Casey Colby on 11/1/16.
 //  Copyright © 2016 ccolby. All rights reserved.
@@ -86,7 +86,7 @@ class SetupViewController: UIViewController, UIAlertViewDelegate{
     func validateSubjectNumber() -> Bool {
         let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
         let url = NSURL(fileURLWithPath: path)
-        let filePath = url.appendingPathComponent("furniturek_\(trial.subjectNumber).realm")?.path
+        let filePath = url.appendingPathComponent("furniturek2_\(trial.subjectNumber).realm")?.path
         let fileManager = FileManager.default
         if fileManager.fileExists(atPath: filePath!) {
             
