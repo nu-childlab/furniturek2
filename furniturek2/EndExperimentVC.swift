@@ -14,7 +14,7 @@ class EndExperimentViewController: UIViewController {
     var i = 4
     
     var alertController : UIAlertController!
-    let accentColor: UIColor = UIColor(red: 68/255, green: 178/255, blue: 108/255, alpha: 1)
+    let accentColor: UIColor = UIColor(red: 150/255, green: 75/255, blue: 176/255, alpha: 1)
 
     @IBOutlet weak var containerView: UIView!
     

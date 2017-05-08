@@ -10,7 +10,8 @@ import UIKit
 
 class IntroViewController: UIViewController {
 
-    let mainColor = UIColor(red: 139/255, green: 167/255, blue: 215/255, alpha: 1)
+    let accentColor: UIColor = UIColor(red: 150/255, green: 75/255, blue: 176/255, alpha: 1)
+    let mainColor = UIColor(red: 224/255, green: 147/255, blue: 122/255, alpha: 1)
     var layerArray = NSMutableArray()
     @IBOutlet var tapRecognizer: UITapGestureRecognizer!
     var tapIndex = 0

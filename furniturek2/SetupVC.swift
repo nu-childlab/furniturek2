@@ -17,7 +17,8 @@ class SetupViewController: UIViewController, UIAlertViewDelegate{
     var alertController: UIAlertController!
     var errController: UIAlertController!
     
-    let accentColor: UIColor = UIColor(red: 68/255, green: 178/255, blue: 108/255, alpha: 1)
+    let accentColor: UIColor = UIColor(red: 150/255, green: 75/255, blue: 176/255, alpha: 1)
+    let mainColor = UIColor(red: 224/255, green: 147/255, blue: 122/255, alpha: 1)
     @IBOutlet weak var containerView: UIView!
     
     //MARK: Actions

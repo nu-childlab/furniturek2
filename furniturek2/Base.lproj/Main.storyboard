@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RKh-8n-xNc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RKh-8n-xNc">
     <device id="ipad12_9" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
@@ -14,7 +14,7 @@
         <!--Tap '+' to create new subject-->
         <scene sceneID="IiX-Gn-SbQ">
             <objects>
-                <viewController id="RKh-8n-xNc" customClass="SetupViewController" customModule="furniturek" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RKh-8n-xNc" customClass="SetupViewController" customModule="furniturek2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Efz-QM-tov"/>
                         <viewControllerLayoutGuide type="bottom" id="uuW-HP-6d5"/>
@@ -74,7 +74,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Furniture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODq-t6-aQH">
                                 <rect key="frame" x="403" y="381" width="560" height="191"/>
                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="160"/>
-                                <color key="textColor" red="0.26539087538038741" green="0.69803921568627447" blue="0.42513157194298257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.58679485320000002" green="0.29268968109999999" blue="0.68909960989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Zx-LC-MRf">
@@ -95,7 +95,7 @@
                                 <items>
                                     <navigationItem id="YUH-cu-BrL">
                                         <barButtonItem key="leftBarButtonItem" title="New Subject" id="f77-mz-2Fb">
-                                            <color key="tintColor" red="0.54541218280000003" green="0.65478497739999997" blue="0.84283393620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="tintColor" red="0.88029031310000005" green="0.57451079640000002" blue="0.47880913590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="newSubjectTapped:" destination="RKh-8n-xNc" id="pNX-Ok-IkO"/>
                                             </connections>
@@ -104,8 +104,8 @@
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" red="0.54541218280000003" green="0.65478497739999997" blue="0.84283393620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.54541218280000003" green="0.65478497739999997" blue="0.84283393620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.88029031310355332" green="0.57451079638027147" blue="0.47880913589100282" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.88029031310000005" green="0.57451079640000002" blue="0.47880913590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="J8D-N9-uIL" firstAttribute="top" secondItem="PaC-ki-PfG" secondAttribute="top" id="09H-xo-Zw3"/>
                             <constraint firstItem="zZD-TT-lDC" firstAttribute="top" secondItem="ODq-t6-aQH" secondAttribute="bottom" constant="-43" id="0Yy-MM-ahc"/>
@@ -143,7 +143,7 @@
         <!--Furniture View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FurnitureViewController" customModule="furniturek" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FurnitureViewController" customModule="furniturek2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -277,8 +277,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.54541218280000003" green="0.65478497739999997" blue="0.84283393620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.54541218280000003" green="0.65478497739999997" blue="0.84283393620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.88029031310000005" green="0.57451079640000002" blue="0.47880913590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.88029031310000005" green="0.57451079640000002" blue="0.47880913590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="xPv-Py-ctc" secondAttribute="trailing" constant="-15" id="1Yy-AZ-eop" userLabel="Button2 - space to edge"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xPv-Py-ctc" secondAttribute="bottom" constant="10" id="4CP-TT-uVv" userLabel="Button2 - space to bottom"/>
@@ -320,7 +320,7 @@
         <!--End Experiment View Controller-->
         <scene sceneID="IsT-ua-i2K">
             <objects>
-                <viewController id="UPV-IL-r08" customClass="EndExperimentViewController" customModule="furniturek" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="UPV-IL-r08" customClass="EndExperimentViewController" customModule="furniturek2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4qX-QB-MAf"/>
                         <viewControllerLayoutGuide type="bottom" id="hio-XL-hkg"/>
@@ -334,7 +334,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="cma-53-Sle"/>
                                 </constraints>
-                                <color key="tintColor" red="0.54541218280000003" green="0.65478497739999997" blue="0.84283393620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.88029031310000005" green="0.57451079640000002" blue="0.47880913590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <items>
                                     <navigationItem id="nbX-3s-Cbu">
@@ -436,8 +436,8 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.54541218280000003" green="0.65478497739999997" blue="0.84283393620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.54541218280000003" green="0.65478497739999997" blue="0.84283393620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.88029031310000005" green="0.57451079640000002" blue="0.47880913590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.88029031310000005" green="0.57451079640000002" blue="0.47880913590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="eb4-jR-Jy5" firstAttribute="bottom" secondItem="hio-XL-hkg" secondAttribute="top" id="1HJ-ET-ihO"/>
@@ -478,7 +478,7 @@
         <!--Intro View Controller-->
         <scene sceneID="rcx-HL-b6U">
             <objects>
-                <viewController id="iFR-2A-omJ" customClass="IntroViewController" customModule="furniturek" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="iFR-2A-omJ" customClass="IntroViewController" customModule="furniturek2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kyx-70-TbM"/>
                         <viewControllerLayoutGuide type="bottom" id="2a8-U3-GuY"/>
@@ -495,7 +495,7 @@
                                 <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
-                                    <color key="textColor" red="0.54541218280000003" green="0.65478497739999997" blue="0.84283393620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="textColor" red="0.88029031310000005" green="0.57451079640000002" blue="0.47880913590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <items>
                                     <navigationItem title="Two-finger double tap anywhere to continue!" id="X3A-JO-o3h"/>
