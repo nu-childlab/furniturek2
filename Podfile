@@ -1,11 +1,11 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '9.3'
 
-target 'furniturek' do
+target 'furniturek2' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for furniturek
+  # Pods for furniturek2
   pod 'RealmSwift'
     
 
@@ -14,7 +14,7 @@ end
 #post_install do |installer|
 #    installer.pods_project.targets.each do |target|
 #            target.build_configurations.each do |config|
-#                        config.build_settings['SWIFT_VERSION'] = '2.3' # or '3.0'
+#                        config.build_settings['SWIFT_VERSION'] = '3.0'
 #                end
 #    end
 #end

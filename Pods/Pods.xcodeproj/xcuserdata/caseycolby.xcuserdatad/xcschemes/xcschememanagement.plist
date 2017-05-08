@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-furniturek.xcscheme</key>
+		<key>Pods-furniturek2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9D2712D3EE60CAD5B393CE5146521CF0</key>
+		<key>18DC2C78FDB149467454969C3E60B76E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C65A5916F6555687A31FDCDA8FDF1254</key>
+		<key>1F9C02259717D95A4083F98BE51318E3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DB7D49103684AED91DDB563F1A4E0B30</key>
+		<key>FBF5E4224869459483B66E505F906DBF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
